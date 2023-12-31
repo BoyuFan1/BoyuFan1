@@ -1,35 +1,45 @@
+/* Define color variables for the black theme */
+$background-color           : #333333;
+$text-color                 : #ffffff;
+$primary-color              : #d3d3d3;
+$border-color               : mix(#fff, $background-color, 20%);
+$code-background-color      : mix(#000, $background-color, 15%);
+$code-background-color-dark : mix(#000, $background-color, 20%);
+$form-background-color      : mix(#000, $background-color, 15%);
+$footer-background-color    : mix($primary-color, #000, 10%);
+$link-color                 : $primary-color;
+$link-color-hover           : mix(#000, $link-color, 25%);
+$link-color-visited         : mix(#fff, $link-color, 25%);
+$masthead-link-color        : $text-color;
+$masthead-link-color-hover  : mix(#fff, $text-color, 20%);
+$navicon-link-color-hover   : mix(#fff, $background-color, 30%);
+
 /* ==========================================================================
-   FOOTER
+   FOOTER (Updated for Black Theme)
    ========================================================================== */
 
 .page__footer {
   @include clearfix;
   float: left;
-  margin-left: 0;
-  margin-right: 0;
   width: 100%;
   clear: both;
-  /* sticky footer fix start */
   position: absolute;
   bottom: 0em;
   height: auto;
-  /* sticky footer fix end */
   margin-top: 3em;
-  color: mix(#fff, $gray, 25%);
+  color: $text-color; /* updated color */
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $lighter-gray;
-  border-top: 1px solid $light-gray;
+  background-color: $footer-background-color; /* updated color */
+  border-top: 1px solid $border-color; /* updated color */
 
   footer {
     @include clearfix;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-    max-width: 100%;
+    margin: 2em auto 0;
     padding: 0 1em 2em;
+    max-width: 100%;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -41,21 +51,21 @@
     text-decoration: none;
 
     &:hover {
+      color: $link-color-hover; /* updated color */
       text-decoration: underline;
     }
   }
 
-  .fas,
-  .fab,
-  .far,
-  .fal {
-    color: mix(#fff, $gray, 25%);
+  .fas, .fab, .far, .fal {
+    color: $text-color; /* updated color */
   }
 }
 
+/* Additional styles for footer components */
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+  color: $text-color; /* updated color */
 }
 
 .page__footer-follow {
@@ -67,8 +77,7 @@
 
   li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 0;
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
     text-transform: uppercase;
@@ -82,11 +91,17 @@
   a {
     padding-right: 10px;
     font-weight: bold;
-  }
+    color: $link-color; /* updated color */
 
-  .social-icons {
-    a {
-      white-space: nowrap;
+    &:hover {
+      color: $link-color-hover; /* updated color */
     }
   }
+
+  .social-icons a {
+    white-space: nowrap;
+  }
 }
+
+/* HTML for footer copyright */
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.</div>
