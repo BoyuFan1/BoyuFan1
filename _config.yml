@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Boyu's Homepage"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Boyu(Boris) Fan"
 description              : &description "personal description"
