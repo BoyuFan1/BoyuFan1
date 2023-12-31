@@ -12,6 +12,11 @@ Greetings! 🌍 I'm Boyu Fan, a junior at UC Berkeley double majoring in Economi
 
 
 
+## 🔍 Research Interest
+My research interests lie at the intersection of advanced computational methodologies and data-driven analysis, particularly focusing on the application of Long Short-Term Memory (LSTM) and Conditional Recurrent Neural Networks (RNNs) within the TensorFlow framework. My work primarily revolves around time series data analysis in the context of network performance optimization. I am deeply engaged in developing novel predictive tools and methodologies, utilizing Tstat log data to enhance network efficiency and reliability.
+
+
+
 ## 🌱 Conservationist 
 In the heart of Kenya, I found my calling as a conservationist with the Lion Light project, a initiative blending technology and environmental stewardship.
 
