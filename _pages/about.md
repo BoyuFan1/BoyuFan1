@@ -26,7 +26,7 @@ More information can be found at my specific [portfolio entry](https://boyufan1.
 
 
 
-## 🍎 Teaching 
+## 📚 Teaching 
 As a torchbearer in the realm of teaching, I engage with students as a tutor and undergraduate instructor in Linear Algebra and Principle in Data Science. My approach to teaching is anchored in the philosophy of active and engaged learning. I believe in creating a dynamic learning environment where students are not just passive recipients of knowledge but active participants in their learning journey. 
 
 
