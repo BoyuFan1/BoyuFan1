@@ -2,7 +2,7 @@
 title: "Senior Tutor - Student Learning Center"
 collection: teaching
 type: "Workshop"
-permalink: /teaching/2023-spring-teaching-2
+permalink: /teaching/2023-spring-teaching-1
 venue: "University of California, Berkeley"
 date: 2023-01-01
 location: "Berkeley, CA"
