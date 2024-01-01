@@ -107,7 +107,7 @@
       "@context": "http://schema.org",
       "@type": "Organization",
       "url": {{ seo_url | jsonify }},
-      "logo": {{ site-logo1.png | prepend: "/images/" | prepend: base_path | jsonify }}
+      "logo": {{ favicon.ico | prepend: "" | prepend: base_path | jsonify }}
     }
   </script>
 {% endif %}
