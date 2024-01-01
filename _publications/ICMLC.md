@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/ICMLC
 excerpt: 'In this study, we introduce an intracranial Electroencephalogram (iEEG)-based seizure detection algorithm that leverages high-frequency components in iEEG signals, achieving over 99% accuracy and a 94% F1 score on 1-second windows across three patients. Our analysis of various classifiers, considering both performance and power consumption, identifies gradient boosted decision trees as the most suitable for this task. [Paper Url](https://dl.acm.org/doi/10.1145/3383972.3384053#sec-cit)'
 date: 2020-02-01
-venue: 'Journal 1'
+venue: 'ICMLC'
 paperurl: ''
 citation: 'Fan, Boyu, et al. “Intracranial Electroencephalogram Based Epilepsy Seizure Onset Detection: Proceedings of the 2020 12th International Conference on Machine Learning and Computing.” ACM Conferences, 1 Feb. 2020, dl.acm.org/doi/10.1145/3383972.3384053#sec-cit.'
 ---
