@@ -2,7 +2,7 @@
 title: "Undergraduate Instructor -- Principles and Techniques of Data Science"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2023-fall-teaching-1
+permalink: /teaching/2023-fall-teaching-2
 venue: "University of California, Berkeley"
 date: 2023-01-01
 location: "Berkeley, CA"
