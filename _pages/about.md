@@ -22,7 +22,7 @@ In the heart of Kenya, I found my calling as a conservationist with the Lion Lig
 
 As the Chief Advocate, I've been instrumental in installing innovative lion lights, which uses blinking light patterns to ward off lions from the villager’s livestock. My role extends beyond just installation; it involves research, community engagement, and raising awareness. By raising $7000, we've expanded the project, installing 800 additional lights and earning heartfelt thanks from the local Kenyan community. 
 
-More information can be found at my specific [portfolio entry]([https://boyufan1.github.io/borisfan.github.io/portfolio/](https://boyufan1.github.io/BoyuFan1/portfolio/portfolio-1/)).
+More information can be found at my specific [portfolio entry](https://boyufan1.github.io/BoyuFan1/portfolio/portfolio-1/).
 
 
 
