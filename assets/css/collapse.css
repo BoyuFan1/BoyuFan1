@@ -10,18 +10,6 @@
     padding: 2px;
     cursor: pointer;
     font-weight: bold;
-}
-.image-scroll-container {
-    overflow-x: auto;
-    white-space: nowrap;
-    width: 100%; /* Adjust the width as needed */
-    height: auto; /* Adjust the height as needed */
-}
-
-.image-scroll-container img {
-    display: inline-block;
-    margin-right: 10px; /* Adjust the space between images */
-}
 .container .content {
     display: none;
     padding : 5px;
