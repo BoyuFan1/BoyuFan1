@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='images/500x300.png'>"
+title: "Lion Light"
+excerpt: "During my high school years, I was inspired by a TED talk by Richard Turere to design a cost-effective and technically improved version of the "lion light," a device that uses blinking lights to scare lions away from livestock, and partnered with the NGO China House for its distribution. <br/><img src='images/500x300.png'>"
 collection: portfolio
 ---
 
