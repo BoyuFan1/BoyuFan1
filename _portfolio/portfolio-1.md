@@ -1,6 +1,6 @@
 ---
 title: "Lion Light"
-excerpt: "During my high school years, I was inspired by a TED talk by Richard Turere to design a cost-effective and technically improved version of the "lion light," a device that uses blinking lights to scare lions away from livestock, and partnered with the NGO China House for its distribution. <br/><img src='images/500x300.png'>"
+excerpt: "During my high school years, I was inspired by a TED talk by Richard Turere to design a cost-effective and technically improved version of the "lion light," a device that uses blinking lights to scare lions away from livestock, and partnered with the NGO China House for its distribution. <br/><img src='/BoyuFan1/images/500x300.png'>"
 collection: portfolio
 ---
 
