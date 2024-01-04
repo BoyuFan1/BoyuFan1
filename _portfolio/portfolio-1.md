@@ -4,8 +4,16 @@ excerpt: "During my high school years, I was inspired by a TED talk by Richard T
 collection: portfolio
 ---
 
-My adventure began after being inspired by a TED talk by Richard Turere, a Maasai boy who created a "lion light" to protect livestock from predators. Upon arriving in Kenya, I was confronted with the realities of human-wildlife conflict, witnessing firsthand the challenges faced by communities living alongside wildlife. I learned about various mitigation methods, including traditional fencing, innovative Beehive Fences, and pepper fences, but found a particular interest in the concept of lion lights.
+<div style="display: flex; align-items: flex-start;">
+    <div style="flex: 1;">
+        <p>My adventure began after being inspired by a TED talk by Richard Turere, a Maasai boy who created a "lion light" to protect livestock from predators. Upon arriving in Kenya, I was confronted with the realities of human-wildlife conflict, witnessing firsthand the challenges faced by communities living alongside wildlife. I learned about various mitigation methods, including traditional fencing, innovative Beehive Fences, and pepper fences, but found a particular interest in the concept of lion lights.</p>
 
-During my time in Kenya, I met with pioneers like David Mascall and Michael Mbithi, who had developed their own versions of lion lights. While these inventions were effective, I observed that they were still prohibitively expensive and faced technical issues. Motivated to make a difference, I embarked on a project to create a more affordable and reliable lion light. My design focused on maintaining the essential deterrent function while incorporating cost-effective and durable materials. I experimented with an infrasonic emitter and a brighter LED light, powered by Ni-Cd batteries for enhanced longevity.
+        <p>During my time in Kenya, I met with pioneers like David Mascall and Michael Mbithi, who had developed their own versions of lion lights. While these inventions were effective, I observed that they were still prohibitively expensive and faced technical issues. Motivated to make a difference, I embarked on a project to create a more affordable and reliable lion light. My design focused on maintaining the essential deterrent function while incorporating cost-effective and durable materials. I experimented with an infrasonic emitter and a brighter LED light, powered by Ni-Cd batteries for enhanced longevity.</p>
 
-Full article was published at [<em>China Development Brief</em>](https://chinadevelopmentbrief.org/reports/designing-lion-lights-for-kenya-a-beijing-high-schoolers-conservation-dream/)
+        <p>Full article was published at <a href="https://chinadevelopmentbrief.org/reports/designing-lion-lights-for-kenya-a-beijing-high-schoolers-conservation-dream/"><em>China Development Brief</em></a>.</p>
+    </div>
+    <div>
+        <img src='/BoyuFan1/images/lion2.png' alt='Lion Light Image' style="max-width: 300px; margin-left: 20px;">
+    </div>
+</div>
+
