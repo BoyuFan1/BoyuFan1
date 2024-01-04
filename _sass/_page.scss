@@ -399,3 +399,21 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/*
+   Image related
+   ========================================================================== */
+
+.image-scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    height: auto; // Adjust as needed
+
+    img {
+        display: inline-block;
+        vertical-align: top; // This ensures that the images align correctly
+        margin-right: 10px; // Space between images
+    }
+}
+
