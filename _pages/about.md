@@ -38,6 +38,17 @@ At Apple, I collaborated with the Global Channel sales team to develop and execu
 
 
 
+## 🔬 Research Experience
+
+### Lawrence Berkeley National Laboratory | Research Assistant (September 2023 - Present)
+
+Advised by [Alex Sim](https://crd.lbl.gov/divisions/scidata/sdm/staff/alex-sim/), [K. John Wu](https://crd.lbl.gov/divisions/scidata/sdm/staff/wu/), and [Jinoh Kim](https://scholar.google.com/citations?user=CFehwB8AAAAJ&hl=en), I have been employing advanced deep learning methodologies, notably Long Short-Term Memory (LSTM) and Conditional Recurrent Neural Networks (RNN), to analyze time series data using TensorFlow. This work involves conducting detailed analyses of Tstat format logs to develop innovative predictive methodologies and tools, primarily aimed at estimating and improving network performance.
+
+### Haas School of Business, Berkeley Operations and Behavioral Analytics Lab | Research Assistant (September 2023 - Present)
+
+Advised by [Park Sinchaisri](https://haas.berkeley.edu/faculty/park-sinchaisri/), my research centers on the dynamics of Human-AI collaboration, specifically through the lens of sequential decision-making and inverse reinforcement learning. A key aspect of our work involves the development of a two-player game employing Markov Decision Processes (MDP) and Reinforcement Learning (RL). This project is designed to explore the role of communication between players in collaborative settings. Our focus is on formulating strategic tips provided during the game and assessing their impact on team collaboration and decision-making. The game serves as a model for studying and enhancing Human-AI interactions, emphasizing the balance of team and individual goals through effective communication strategies.
+
+
 ## 📚 Teaching 
 As a torchbearer in the realm of teaching, I engage with students as a tutor and undergraduate instructor in Linear Algebra and Principle in Data Science. My approach to teaching is anchored in the philosophy of active and engaged learning. I believe in creating a dynamic learning environment where students are not just passive recipients of knowledge but active participants in their learning journey. 
 
