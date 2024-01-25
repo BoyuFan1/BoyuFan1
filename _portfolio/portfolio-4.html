@@ -1,13 +1,42 @@
 ---
 title: "Sentiment Analysis with Pre-trained Language Models"
-excerpt: "Fine-tuning pre-trained language model for sentiment analysis on SST-2 dataset."
+excerpt: "Fine-tuning a pre-trained language model for the sentiment analysis task on the Stanford Sentiment Treebank (SST-2) dataset. The dataset is made up of sentences from movie reviews, each labeled as either 'negative' (0) or 'positive' (1). The ultimate goal was to train a model that can accurately classify a given sentence into one of these two sentiment classes."
 collection: portfolio
 ---
 
-<p><strong>Overview:</strong> Fine-tuned a language model for sentiment analysis on the SST-2 dataset, identifying movie review sentiments as negative or positive.</p>
-<p><strong>Approach:</strong> Adapted Hugging Face's EleutherAI/pythia-70m model for sequence classification and trained it using specific parameters over 3 epochs.</p>
-<p><strong>QLoRA and Its Inapplicability:</strong> Explored but did not integrate QLoRA due to incompatibility with the GPT-based pythia-70m model.</p>
-<p><strong>Results:</strong> Achieved 81.65% accuracy on SST-2 validation set, with additional metrics demonstrating effective model performance.</p>
-<p><strong>Additional Insights:</strong> Investigated QLoRA's connection to SVD, reflected on parameter tuning challenges, and highlighted the superiority of GPUs over CPUs for training.</p>
+<h3><strong>1. Overview</strong></h3>
+<p>Fine-tuning a pre-trained language model for the sentiment analysis task on the Stanford Sentiment Treebank (SST-2) dataset. The dataset is made up of sentences from movie reviews, each labeled as either 'negative' (0) or 'positive' (1). The ultimate goal was to train a model that can accurately classify a given sentence into one of these two sentiment classes. <a href="https://huggingface.co/EleutherAI/pythia-410m">link</a></p>
 
+<h3><strong>2. Approach</strong></h3>
+<p>I started by loading the SST-2 dataset from the Hugging Face datasets library. The dataset consists of 11,855 single sentences extracted from movie reviews, each labeled by 3 human judges.</p>
+<p>I initially planned to use the EleutherAI/pythia-410m model, but due to the long training process, I decided to use the smaller EleutherAI/pythia-70m model. This model is based on the GPT-2 architecture and is known for generating human-like text and understanding context. I adapted the model for sequence classification by adding a classification head on top of the GPT-2 model.</p>
+<p>For tokenization, I used the AutoTokenizer class from the Hugging Face transformers library, setting the max_length parameter to 100 tokens and padding the sequences to the maximum length in the batch.</p>
+<p>I used the Trainer class from the transformers library to train the model. I trained the model for 3 epochs with a learning rate of 2e-5 and a weight decay of 0.01. I specified the training and evaluation configuration using the TrainingArguments class.</p>
 
+<h3><strong>3. QLoRA and Its Inapplicability</strong></h3>
+<p>I also considered using the QLoRA model during this task. QLoRA, or Quantized Long-Range Attention, is a model architecture designed for long-range tasks and is based on the BERT architecture. However, I found that integrating QLoRA with the EleutherAI/pythia-70m model is not straightforward because QLoRA is not directly compatible with GPT models like pythia-70m. Therefore, I decided to proceed with fine-tuning the pythia-70m model without integrating QLoRA.</p>
+
+<h3><strong>4. Results</strong></h3>
+<p>After fine-tuning, I evaluated the model on the SST-2 validation set. Here is the validation result of the given matrix in email: {P(correct label) &gt; P(incorrect label)}</p>
+<p>eval_accuracy: 0.8165137614678899</p>
+<p>In addition, I also used various evaluation metrics including accuracy, precision, recall, F1 score, and ROC AUC score. The results were as follows:</p>
+<ul>
+  <li>Evaluation Loss: 0.7548</li>
+  <li>Accuracy: 81.65%</li>
+  <li>Precision: 81.56%</li>
+  <li>Recall: 82.66%</li>
+  <li>F1 Score: 82.10%</li>
+  <li>ROC AUC: 0.8908</li>
+</ul>
+
+<h3><strong>5. Other Words</strong></h3>
+<ul>
+  <li><em>Learning QLoRA</em><br>
+  Getting my head around QLoRA was fascinating. It seemed similar to Singular Value Decomposition (SVD) in some ways. SVD is this method in linear algebra that breaks down a matrix into three other matrices. QLoRA kind of does the same thing but with the attention mechanism - it breaks it down into smaller, more manageable pieces. Understanding all these underlying theories helped me get a better grip on why certain models and architectures are designed the way they are.</li>
+  <li><em>Reflections on Parameter Tuning</em><br>
+  Tweaking the training parameters was a bit like walking a tightrope. The learning rate, batch size, and number of epochs are all intertwined in this complex dance that can make or break the model's performance. For instance, a high learning rate can cause the model to overshoot the minimum, while a low one can make the model learn too slowly or not converge at all. Likewise, a larger batch size can speed up the training process, but it might also need more memory and may not generalize as well as smaller batch sizes. It's always a game of trial and error, experimenting with different values, and keeping a close eye on the model's performance on a validation set to find that sweet spot.</li>
+  <li><em>Ideas for SST-2 Dataset</em><br>
+  Sentiment-classification might be used in the forecasting model you mentioned in our earlier chat. For instance, sentiment analysis can aid in predicting stock market trends, election outcomes, and consumer behavior patterns. A surge of positive sentiment in financial news, for example, might indicate a bullish stock market trend. Similarly, in product development, analyzing customer reviews can reveal critical insights into a product's strengths and weaknesses, thus informing future development and marketing strategies. Additionally, in the realm of policy-making, analyzing public opinion on social media platforms can provide invaluable insights for policymakers.</li>
+  <li><em>CPU VS GPU</em><br>
+  I started the training process using a CPU, but I quickly ran out of memory. The computational demands of training large models are extremely high, and the CPU just couldn't handle it. So, I switched to using a GPU instead. I later realized that this is because a GPU can process multiple computations simultaneously, making it much faster than a CPU for tasks like training neural networks, which involve a large number of matrix multiplications. Using a GPU significantly sped up the training process and made it possible to train the model without running out of memory.</li>
+</ul>
