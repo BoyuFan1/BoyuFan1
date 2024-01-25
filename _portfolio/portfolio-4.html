@@ -1,0 +1,22 @@
+---
+title: "Sentiment Analysis with Pre-trained Language Models"
+excerpt: "Fine-tuning a language model on SST-2 for sentiment analysis of movie reviews, using EleutherAI models and exploring QLoRA's inapplicability."
+collection: portfolio
+---
+
+### **Overview**
+Fine-tuned a language model for sentiment analysis on the SST-2 dataset, comprising movie review sentences labeled as negative or positive.
+
+### **Approach**
+Utilized Hugging Face's EleutherAI/pythia-70m model, adapting it for sequence classification. Employed AutoTokenizer for tokenization and trained the model with specific parameters over 3 epochs.
+
+### **QLoRA and Its Inapplicability**
+Considered QLoRA, a long-range task model, but found it incompatible with the GPT-based pythia-70m model, leading to its exclusion from the project.
+
+### **Results**
+Achieved an evaluation accuracy of 81.65% on the SST-2 validation set, with comprehensive metrics indicating robust model performance.
+
+### **Additional Insights**
+Explored QLoRA's similarities to SVD in linear algebra and reflected on the delicate balance of parameter tuning in model training. Also considered the potential application of sentiment analysis in various fields and highlighted the necessity of GPU over CPU for efficient model training.
+
+---
