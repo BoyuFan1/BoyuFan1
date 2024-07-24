@@ -10,7 +10,7 @@ redirect_from:
 
 Greetings 🌍!
 
-I'm Boyu Fan, a junior at UC Berkeley, where I'm double majoring in Economics and Data Science with a minor in Statistics. My academic journey is marked by a deep engagement in Machine Learning research and the experiments of uncertainty quantification for perturbation intervals.
+I'm Boyu Fan, a senior at UC Berkeley, where I'm double majoring in Economics and Data Science with a minor in Statistics. My academic journey is marked by a deep engagement in Machine Learning research and the experiments of uncertainty quantification for perturbation intervals.
 
 When I'm not diving into data, you can find me playing tennis, trying out new recipes, or playing pieces by Vivaldi and Schubert. I love exploring new ideas and embrace the possibilities that come with innovation and curiosity.
 
