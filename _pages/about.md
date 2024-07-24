@@ -8,13 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-Greetings! 🌍 I'm Boyu Fan, a junior at UC Berkeley double majoring in Economics and Data Science. My academic journey is marked by a deep engagement in Machine Learning and Artificial Intelligence research at Lawrence Berkeley National Laboratory and Haas School of Business. Here, I'm exploring the complexities of LSTM and RNN within TensorFlow, and innovating on the future work of Human-AI interfaces("Can ML offer simple tips to help humans?").
+Greetings 🌍!
 
+I'm Boyu Fan, a junior at UC Berkeley, where I'm double majoring in Economics and Data Science with a minor in Statistics. My academic journey is marked by a deep engagement in Machine Learning research and the experiments of uncertainty quantification for perturbation intervals.
+
+When I'm not diving into data, you can find me playing tennis, trying out new recipes, or playing pieces by Vivaldi and Schubert. I love exploring new ideas and embrace the possibilities that come with innovation and curiosity.
+
+<!--
 
 
 ## 🔍 Research Interest
 My research interests lie at the intersection of advanced computational methodologies and data-driven analysis, particularly focusing on the application of Long Short-Term Memory (LSTM) and Conditional Recurrent Neural Networks (RNNs) within the TensorFlow framework. My work primarily revolves around time series data analysis in the context of network performance optimization. I am deeply engaged in developing novel predictive tools and methodologies, utilizing Tstat log data to enhance network efficiency and reliability.
 
+-->
 
 
 ## 🌱 Conservationist 
