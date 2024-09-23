@@ -23,19 +23,6 @@ As the Chief Advocate, I've been instrumental in installing innovative lion ligh
 More information can be found at my specific [portfolio entry](https://boyufan1.github.io/BoyuFan1/portfolio/portfolio-1/).
 
 
-
-## 📊 Work Experience
-
-### Deloitte | Risk Advisory Modeling Intern (May - August 2023)
-
-In my role at Deloitte, I focused on enhancing sovereign risk models by performing rigorous data cleaning and feature extraction on datasets from the World Bank and IMF. I employed advanced feature engineering techniques like K-means and agglomerative clustering, along with univariate analysis using tools such as Somer's D, ROC, and information value. My work culminated in the construction of a sovereign risk classification model using logistic regression, decision trees, and random forests, significantly improving the model's accuracy from 40% to 78% and streamlining data processing with proficient use of SQL.
-
-### Apple | Data Analysis Engineering Intern (July - August 2022)
-
-At Apple, I collaborated with the Global Channel sales team to develop and execute effective business and sales strategies. My key contributions included orchestrating the design and implementation of A/B tests, applying one-tail hypothesis testing to understand customer behavior, leading to an 18% increase in unique viewer metrics. I also optimized sales strategies using a reinforcement model and skillfully analyzed sales reports from distributors, employing advanced data engineering techniques to yield insightful business strategies.
-
-
-
 ## 🔬 Research Experience
 
 ### Lawrence Berkeley National Laboratory | Research Assistant (September 2023 - Present)
@@ -47,10 +34,12 @@ Fortunate to be advised by [Alex Sim](https://crd.lbl.gov/divisions/scidata/sdm/
 Fortunate to be advised by [Park Sinchaisri](https://haas.berkeley.edu/faculty/park-sinchaisri/), my research centers on the dynamics of Human-AI collaboration, specifically through the lens of sequential decision-making and inverse reinforcement learning. A key aspect of our work involves the development of a two-player game employing Markov Decision Processes (MDP) and Reinforcement Learning (RL). This project is designed to explore the role of communication between players in collaborative settings. Our focus is on formulating strategic tips provided during the game and assessing their impact on team collaboration and decision-making. The game serves as a model for studying and enhancing Human-AI interactions, emphasizing the balance of team and individual goals through effective communication strategies.
 
 
-## 📚 Teaching 
-As a torchbearer in the realm of teaching, I engage with students as a tutor and undergraduate instructor in Linear Algebra and Principle in Data Science. My approach to teaching is anchored in the philosophy of active and engaged learning. I believe in creating a dynamic learning environment where students are not just passive recipients of knowledge but active participants in their learning journey. 
+## 📊 Selected Work Experience
 
+### Deloitte | Risk Advisory Modeling Intern (May - August 2023)
 
+In my role at Deloitte, I focused on enhancing sovereign risk models by performing rigorous data cleaning and feature extraction on datasets from the World Bank and IMF. I employed advanced feature engineering techniques like K-means and agglomerative clustering, along with univariate analysis using tools such as Somer's D, ROC, and information value. My work culminated in the construction of a sovereign risk classification model using logistic regression, decision trees, and random forests, significantly improving the model's accuracy from 40% to 78% and streamlining data processing with proficient use of SQL.
 
-## 🎲 Connect With Me
-If you're intrigued by deep learning breakthroughs, passionate about wildlife conservation, or just up for a tennis game, let's connect! Who knows what puzzles we might solve together? 
+### Apple | Data Analysis Engineering Intern (July - August 2022)
+
+At Apple, I collaborated with the Global Channel sales team to develop and execute effective business and sales strategies. My key contributions included orchestrating the design and implementation of A/B tests, applying one-tail hypothesis testing to understand customer behavior, leading to an 18% increase in unique viewer metrics. I also optimized sales strategies using a reinforcement model and skillfully analyzed sales reports from distributors, employing advanced data engineering techniques to yield insightful business strategies.
