@@ -10,18 +10,10 @@ redirect_from:
 
 Greetings 🌍!
 
-I'm Boyu Fan, a senior at UC Berkeley, where I'm double majoring in Economics and Data Science with a minor in Statistics. My academic journey is marked by a deep engagement in Machine Learning research and the experiments of uncertainty quantification for perturbation intervals.
-
-When I'm not diving into data, you can find me playing tennis, trying out new recipes, or playing pieces by Vivaldi and Schubert. I love exploring new ideas and embrace the possibilities that come with innovation and curiosity.
-
-<!--
-
+I'm Boyu Fan, a senior at UC Berkeley, where I'm double majoring in Economics and Data Science with a minor in Statistics. Outside academics, you can find me playing tennis, trying out new recipes, or playing pieces by Vivaldi and Schubert. 
 
 ## 🔍 Research Interest
-My research interests lie at the intersection of advanced computational methodologies and data-driven analysis, particularly focusing on the application of Long Short-Term Memory (LSTM) and Conditional Recurrent Neural Networks (RNNs) within the TensorFlow framework. My work primarily revolves around time series data analysis in the context of network performance optimization. I am deeply engaged in developing novel predictive tools and methodologies, utilizing Tstat log data to enhance network efficiency and reliability.
-
--->
-
+High-Dimensional Data Analysis, Bayesian Hierarchical Models for Longitudinal Data, Causal Inference in Observational Studies, Uncertainty Quantification, Functional Data Analysis, Human AI Interface, Applications in Interpretable Machine Learning
 
 ## 🌱 Conservationist 
 In the heart of Kenya, I found my calling as a conservationist with the Lion Light project, a initiative blending technology and environmental stewardship.
@@ -48,11 +40,11 @@ At Apple, I collaborated with the Global Channel sales team to develop and execu
 
 ### Lawrence Berkeley National Laboratory | Research Assistant (September 2023 - Present)
 
-Advised by [Alex Sim](https://crd.lbl.gov/divisions/scidata/sdm/staff/alex-sim/), [K. John Wu](https://crd.lbl.gov/divisions/scidata/sdm/staff/wu/), and [Jinoh Kim](https://scholar.google.com/citations?user=CFehwB8AAAAJ&hl=en), I have been employing advanced deep learning methodologies, notably Long Short-Term Memory (LSTM) and Conditional Recurrent Neural Networks (RNN), to analyze time series data using TensorFlow. This work involves conducting detailed analyses of Tstat format logs to develop innovative predictive methodologies and tools, primarily aimed at estimating and improving network performance.
+Fortunate to be advised by [Alex Sim](https://crd.lbl.gov/divisions/scidata/sdm/staff/alex-sim/), [K. John Wu](https://crd.lbl.gov/divisions/scidata/sdm/staff/wu/), and [Jinoh Kim](https://scholar.google.com/citations?user=CFehwB8AAAAJ&hl=en), I have been employing advanced deep learning methodologies, notably Long Short-Term Memory (LSTM) and Conditional Recurrent Neural Networks (RNN), to analyze time series data using TensorFlow. This work involves conducting detailed analyses of Tstat format logs to develop innovative predictive methodologies and tools, primarily aimed at estimating and improving network performance.
 
 ### Haas School of Business, Berkeley Operations and Behavioral Analytics Lab | Research Assistant (September 2023 - Present)
 
-Advised by [Park Sinchaisri](https://haas.berkeley.edu/faculty/park-sinchaisri/), my research centers on the dynamics of Human-AI collaboration, specifically through the lens of sequential decision-making and inverse reinforcement learning. A key aspect of our work involves the development of a two-player game employing Markov Decision Processes (MDP) and Reinforcement Learning (RL). This project is designed to explore the role of communication between players in collaborative settings. Our focus is on formulating strategic tips provided during the game and assessing their impact on team collaboration and decision-making. The game serves as a model for studying and enhancing Human-AI interactions, emphasizing the balance of team and individual goals through effective communication strategies.
+Fortunate to be advised by [Park Sinchaisri](https://haas.berkeley.edu/faculty/park-sinchaisri/), my research centers on the dynamics of Human-AI collaboration, specifically through the lens of sequential decision-making and inverse reinforcement learning. A key aspect of our work involves the development of a two-player game employing Markov Decision Processes (MDP) and Reinforcement Learning (RL). This project is designed to explore the role of communication between players in collaborative settings. Our focus is on formulating strategic tips provided during the game and assessing their impact on team collaboration and decision-making. The game serves as a model for studying and enhancing Human-AI interactions, emphasizing the balance of team and individual goals through effective communication strategies.
 
 
 ## 📚 Teaching 
